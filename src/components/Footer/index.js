@@ -1,7 +1,15 @@
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
+
 function Footer() {
+
   return (
     <footer>
-      <h2>Made by Dave in 2022</h2>
+      <a href="https://github.com/dhalladay" target="_blank" className="light">
+      <BsGithub />
+      </a>
+      <a href="https://github.com/dhalladay" target="_blank" className="light">
+      <BsLinkedin />
+      </a>
     </footer>
   );
 }
