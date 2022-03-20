@@ -41,9 +41,28 @@ code {
   color: var(--second);
 }
 
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.img-thumbnail {
+  width: 33%;
+  height: auto;
+}
+
+.center-text {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .my-2 {
@@ -52,7 +71,7 @@ code {
 }
 
 form {
-  width: 40%;
+  width: 50%;
   color: var(--accent-light);
 }
 
@@ -63,6 +82,7 @@ input {
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
+  width: 100%;
 }
 
 input:focus {
@@ -71,7 +91,7 @@ input:focus {
 }
 
 textarea {
-	width: 600px;
+	width: 100%;
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
@@ -291,12 +311,6 @@ main {
   width: 10%;
 }
 
-/* Work/projects section styling */
-#work {
-  background-color: var(--second);
-  background-size: cover;
-}
-
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -310,13 +324,6 @@ main {
 
 .project-link {
   text-decoration: none;
-}
-
-.project-item:hover {
-  filter: brightness(110%) saturate(120%);
-  transform: scale(1.1);
-  z-index: 11;
-  transition: .25s;
 }
 
 .project-item h3 {
@@ -348,6 +355,16 @@ main {
 .card {
   width: 25%;
   text-align: center;
+  margin: 15px;
+}
+
+
+
+.card:hover {
+  filter: brightness(110%) saturate(120%);
+  transform: scale(1.1);
+  z-index: 11;
+  transition: .25s;
 }
 
 img {

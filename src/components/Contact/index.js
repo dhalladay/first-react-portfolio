@@ -37,18 +37,18 @@ function ContactForm() {
 
   return (
     <section>
-      <h1>Contact me</h1>
-      <form id="contact-form" onSumbit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
+      <h1 className="light">Contact me</h1>
+      <form id="contact-form" onSubmit={handleSubmit}>
+        <div className="my-2">
+          <label htmlFor="name">Name: </label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
         </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
+        <div className="my-2">
+          <label htmlFor="email">Email address: </label>
           <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
         </div>
-        <div>
-          <label htmlFor="message">Message:</label>
+        <div className="my-2">
+          <label htmlFor="message">Message: </label>
           <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
         {errorMessage && (

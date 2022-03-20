@@ -8,7 +8,7 @@ function Projects() {
         </h2>
       </div>
       <div className="col-8">
-        <div className="row justify-content-between">
+        <div className="flex-row">
           <div className="card">
             <h3 className="rounded shadow-lg">Troubleshot</h3>
             <a href="https://troubleshot.herokuapp.com/" target="_blank" rel="noreferrer" className="project-link">

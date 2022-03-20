@@ -2,9 +2,7 @@ import Projects from "../Project"
 
 function Portfolio() {
   return (
-    <>
     <Projects />
-    </>
   );
 }
 
