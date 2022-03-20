@@ -9,7 +9,7 @@ function Header() {
 
   const [currentPage, setCurrentPage] = useState('about');
 
-  const renderPage = () => {
+  const RenderPage = () => {
     switch(currentPage) {
       case "about":
         return <About />
@@ -34,7 +34,7 @@ function Header() {
         ></Navigation>
       </header>
       <main>
-        {renderPage()}
+        <RenderPage />
       </main>
     </>
   );

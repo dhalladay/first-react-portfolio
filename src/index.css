@@ -12,6 +12,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -46,6 +51,45 @@ code {
   margin-bottom: var(--spacing-two);
 }
 
+form {
+  width: 40%;
+  color: var(--accent-light);
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
+button {
+	background: var(--accent-light);
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
+}
+
+
 footer a:hover {
   color: var(--second);
 }
@@ -54,6 +98,7 @@ footer a:hover {
 header {
   display:flex;
   flex-wrap: wrap;
+  min-width: 100%;
   justify-content: space-between;
   align-items: center;
   background-color: var(--tert);
@@ -267,14 +312,6 @@ main {
   text-decoration: none;
 }
 
-/* .project-item {
-  text-align: center;
-  justify-content: space-between;
-  z-index: 10;
-  flex: 1 0 49%;
-  position: relative;
-} */
-
 .project-item:hover {
   filter: brightness(110%) saturate(120%);
   transform: scale(1.1);
@@ -308,7 +345,12 @@ main {
   z-index: 100;
 }
 
-.project-link img {
+.card {
+  width: 25%;
+  text-align: center;
+}
+
+img {
   width: 100%;
   height: auto;
 }
