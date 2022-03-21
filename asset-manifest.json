@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/first-react-portfolio/static/css/main.40dd88bd.css",
+    "main.js": "/first-react-portfolio/static/js/main.2e881b3b.js",
+    "static/js/787.795788f4.chunk.js": "/first-react-portfolio/static/js/787.795788f4.chunk.js",
+    "static/media/Chrip.png": "/first-react-portfolio/static/media/Chrip.70fc9e957510489ce6d1.png",
+    "static/media/Run-buddy.PNG": "/first-react-portfolio/static/media/Run-buddy.e469594aa6b54ee33936.PNG",
+    "static/media/Troubleshot.png": "/first-react-portfolio/static/media/Troubleshot.6580bbfc2dddef27ff70.png",
+    "static/media/Work-Day-Scheduler.png": "/first-react-portfolio/static/media/Work-Day-Scheduler.6450a67636dfa8f106ad.png",
+    "static/media/profile-pic.jpg": "/first-react-portfolio/static/media/profile-pic.82a353f28b20692c04ea.jpg",
+    "static/media/The-Tech-Blog.png": "/first-react-portfolio/static/media/The-Tech-Blog.d0a86a5467893b8ffde3.png",
+    "static/media/Resume-Portfolio.pdf": "/first-react-portfolio/static/media/Resume-Portfolio.eb3343c9633dc3bb86fa.pdf",
+    "static/media/Coding-Quiz.PNG": "/first-react-portfolio/static/media/Coding-Quiz.ae87f917cbdff1f5b06a.PNG",
+    "index.html": "/first-react-portfolio/index.html",
+    "main.40dd88bd.css.map": "/first-react-portfolio/static/css/main.40dd88bd.css.map",
+    "main.2e881b3b.js.map": "/first-react-portfolio/static/js/main.2e881b3b.js.map",
+    "787.795788f4.chunk.js.map": "/first-react-portfolio/static/js/787.795788f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40dd88bd.css",
+    "static/js/main.2e881b3b.js"
+  ]
+}
