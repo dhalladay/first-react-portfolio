@@ -2,7 +2,7 @@
 
 Created a Web Portfolio for current and future projects
 
-![Portfolio Screenshot]<img src='src/assets/images/first-react-portfolio.png'>
+<img src='src/assets/images/first-react-portfolio.png' alt="portfolio screenshot">
 
 ## Purpose
 
