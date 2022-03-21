@@ -70,6 +70,11 @@ code {
   margin-bottom: var(--spacing-two);
 }
 
+.mx-2 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
+}
+
 form {
   width: 50%;
   color: var(--accent-light);
@@ -109,8 +114,7 @@ button {
 	padding: 10px 15px;	
 }
 
-
-footer a:hover {
+footer a:hover, .resume-link:hover {
   color: var(--second);
 }
 
@@ -357,8 +361,6 @@ main {
   text-align: center;
   margin: 15px;
 }
-
-
 
 .card:hover {
   filter: brightness(110%) saturate(120%);

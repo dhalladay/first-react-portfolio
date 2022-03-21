@@ -33,6 +33,7 @@ function Resume() {
 
         </div>
       </div>
+      <a className="light center-text my-2 resume-link" href={require(`../../assets/docs/Resume-Portfolio.pdf`)} download>Download Resume</a>
     </div>
   )
 }

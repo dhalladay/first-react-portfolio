@@ -1,11 +1,16 @@
 function Navigation(props) {
+
+  const currentPage = props.currentPage
+
   const selection = ['about', 'portfolio', 'contact', 'resume']
 
   return (
     <nav>
       <ul className="flex-row">
         {selection.map(selection => (
-          <li className="mx-2" key={selection}>
+          <li className={`mx-1 ${
+            props.currentPage === selection && !currentPage && `navActive`
+            }`} key={selection}>
             <a
               href={"#" + selection}
               onClick={() => props.setCurrentPage(selection)}
