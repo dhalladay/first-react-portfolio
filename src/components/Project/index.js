@@ -1,47 +1,78 @@
+import { BsGithub } from 'react-icons/bs';
+
 function Projects() {
   return (
     <>
-    <section id="work" className="content container">
-      <div className="row">
-        <h2 className="section-header col-2">
-          Work
-        </h2>
-      </div>
-      <div className="col-8">
-        <div className="flex-row">
-          <div className="card">
-            <h3 className="rounded shadow-lg">Troubleshot</h3>
-            <a href="https://troubleshot.herokuapp.com/" target="_blank" rel="noreferrer" className="project-link">
-              <img src={require(`../../assets/images/Troubleshot.png`)} alt="screenshot and link to Troubleshot website, click to proceed" className="project-img rounded" />
-            </a>
-          </div>
-          <div className="card">
-            <h3 className="rounded shadow-lg">Chrip</h3>
-            <a href="https://dhalladay.github.io/travel-app-events/" target="_blank" rel="noreferrer" className="project-link">
-              <img src={require(`../../assets/images/Chrip.png`)} alt="screenshot and link to Chrip website, click to proceed" className="project-img rounded" />
-            </a>
-          </div>
-          <div className="card">
-            <h3 className="rounded shadow-lg">Work Day Scheduler</h3>
-            <a href="https://dhalladay.github.io/daily-calendar/" target="_blank" rel="noreferrer" className="project-link">
-              <img src={require(`../../assets/images/Work-Day-Scheduler.png`)} alt="screenshot and link to workday scheduler application" className="project-img rounded" />
-            </a>
-          </div>
-          <div className="card">
-            <h3 className="rounded shadow-lg">Run-buddy</h3>
-            <a href="https://dhalladay.github.io/run-buddy/" target="_blank" rel="noreferrer" className="project-link">
-              <img src={require(`../../assets/images/Run-buddy.PNG`)} alt="screenshot and link to run-buddy, a guided html and css example" className="project-img rounded" />
-            </a>
-          </div>
-          <div className="card">
-            <h3 className="rounded shadow-lg">Coding Quiz</h3>
-            <a href="https://dhalladay.github.io/timed-quiz-quatro/" target="_blank" rel="noreferrer" className="project-link">
-              <img src={require(`../../assets/images/Coding-Quiz.PNG`)} alt="screenshot and link to a coding-related quiz" className="project-img rounded mx-auto" />
-            </a>
+      <section id="work" className="content container">
+        <div className="row">
+          <h2 className="section-header col-2">
+            Work
+          </h2>
+        </div>
+        <div className="col-8">
+          <div className="flex-row">
+            <div className="card">
+              <div className='github-flex'>
+                <h3 className='my-2'>Troubleshot</h3>
+                <a href="https://github.com/Hone12345678/Troubleshot" target="_blank" rel="noreferrer" className="light link myt-2 mx-2"><BsGithub /></a>
+              </div>
+              <a href="https://troubleshot.herokuapp.com/" target="_blank" rel="noreferrer" className="project-link">
+                <img src={require(`../../assets/images/Troubleshot.png`)} alt="screenshot and link to Troubleshot website, click to proceed" className="project-img rounded" />
+              </a>
+            </div>
+            <div className="card">
+              <div className='github-flex'>
+              <h3 className="my-2">Chrip</h3>
+              <a href="https://github.com/dhalladay/travel-app-events" target="_blank" rel="noreferrer" className="light link myt-2 mx-2"><BsGithub /></a>
+
+              </div>
+              <a href="https://dhalladay.github.io/travel-app-events/" target="_blank" rel="noreferrer" className="project-link">
+                <img src={require(`../../assets/images/Chrip.png`)} alt="screenshot and link to Chrip website, click to proceed" className="project-img rounded" />
+              </a>
+            </div>
+            <div className="card">
+              <div className='github-flex'>
+              <h3 className="my-2">The Tech Blog</h3>
+              <a href="https://github.com/dhalladay/tech-blog" target="_blank" rel="noreferrer" className="light link myt-2 mx-2"><BsGithub /></a>
+
+              </div>
+              <a href="https://shielded-falls-52220.herokuapp.com/" target="_blank" rel="noreferrer" className="project-link">
+                <img src={require(`../../assets/images/The-Tech-Blog.png`)} alt="screenshot and link to The Tech Blog website, click to proceed" className="project-img rounded" />
+              </a>
+            </div>
+            <div className="card">
+              <div className='github-flex'>
+              <h3 className="my-2">Work Day Scheduler</h3>
+              <a href="https://github.com/dhalladay/daily-calendar" target="_blank" rel="noreferrer" className="light link myt-2 mx-2"><BsGithub /></a>
+
+              </div>
+              <a href="https://dhalladay.github.io/daily-calendar/" target="_blank" rel="noreferrer" className="project-link">
+                <img src={require(`../../assets/images/Work-Day-Scheduler.png`)} alt="screenshot and link to workday scheduler application" className="project-img rounded" />
+              </a>
+            </div>
+            <div className="card">
+              <div className='github-flex'>
+              <h3 className="my-2">Run-buddy</h3>
+              <a href="https://github.com/dhalladay/run-buddy" target="_blank" rel="noreferrer" className="light link myt-2 mx-2"><BsGithub /></a>
+
+              </div>
+              <a href="https://dhalladay.github.io/run-buddy/" target="_blank" rel="noreferrer" className="project-link">
+                <img src={require(`../../assets/images/Run-buddy.PNG`)} alt="screenshot and link to run-buddy, a guided html and css example" className="project-img rounded" />
+              </a>
+            </div>
+            <div className="card">
+              <div className='github-flex'>
+              <h3 className="my-2">Coding Quiz</h3>
+              <a href="https://github.com/dhalladay/timed-quiz-quatro" target="_blank" rel="noreferrer" className="light link myt-2 mx-2"><BsGithub /></a>
+
+              </div>
+              <a href="https://dhalladay.github.io/timed-quiz-quatro/" target="_blank" rel="noreferrer" className="project-link">
+                <img src={require(`../../assets/images/Coding-Quiz.PNG`)} alt="screenshot and link to a coding-related quiz" className="project-img rounded mx-auto" />
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     </>
   );
 }

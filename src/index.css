@@ -55,9 +55,19 @@ code {
 
 }
 
+.github-flex {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
 .img-thumbnail {
   width: 33%;
   height: auto;
+}
+
+.about-text {
+  width: 33%;
 }
 
 .center-text {
@@ -68,6 +78,10 @@ code {
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
+}
+
+.myt-2 {
+  margin-top: 20px;
 }
 
 .mx-2 {
@@ -114,7 +128,7 @@ button {
 	padding: 10px 15px;	
 }
 
-footer a:hover, .resume-link:hover {
+footer a:hover, .link:hover {
   color: var(--second);
 }
 
@@ -303,7 +317,6 @@ main {
   align-items: center;
   padding: 2%;
   width: 100%;
-  border-bottom: 5px solid var(--accent-light);
 }
 
 
