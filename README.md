@@ -17,7 +17,7 @@ In order to become more competitive as a full stack developer, it is important t
 
 ## Website
 
-https://dhalladay.github.io/first-draft-portfolio/
+https://dhalladay.github.io/first-react-portfolio/
 
 ## Usage
 
