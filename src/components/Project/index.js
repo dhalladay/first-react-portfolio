@@ -52,12 +52,12 @@ function Projects() {
             </div>
             <div className="card">
               <div className='github-flex'>
-              <h3 className="my-2">Run-buddy</h3>
+              <h3 className="my-2">WorthIt</h3>
               <a href="https://github.com/Hone12345678/worthIt" target="_blank" rel="noreferrer" className="light link myt-2 mx-2"><BsGithub /></a>
 
               </div>
                 <a href="https://worth-it-2022.herokuapp.com/" target="_blank" rel="noreferrer" className="project-link">
-                <img src={require(`../../assets/images/WorthIt.png`)} alt="screenshot and link to run-buddy, a guided html and css example" className="project-img rounded" />
+                <img src={require(`../../assets/images/WorthIt.png`)} alt="screenshot and link to Worth, an app for the gig economy" className="project-img rounded" />
               </a>
             </div>
             <div className="card">
