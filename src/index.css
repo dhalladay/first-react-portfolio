@@ -15,6 +15,7 @@
 html,
 body {
   min-height: 100%;
+  background-color: var(--prim);
 }
 
 body {
@@ -25,7 +26,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--prim);
-
 }
 
 code {
@@ -46,6 +46,12 @@ code {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.profile-picture {
+  border-radius: 50px;
+  box-shadow:  20px 20px 60px #192f3c,
+             -20px -20px 60px #213f51;
 }
 
 .flex-row {
@@ -319,6 +325,10 @@ main {
   width: 100%;
 }
 
+section {
+  background-color: var(--prim);
+}
+
 
 .section-header {
   text-align: left;
@@ -414,6 +424,7 @@ footer {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 10px;
+  position: bottom;
 }
 
 

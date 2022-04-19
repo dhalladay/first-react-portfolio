@@ -62,12 +62,12 @@ function Projects() {
             </div>
             <div className="card">
               <div className='github-flex'>
-              <h3 className="my-2">Coding Quiz</h3>
-              <a href="https://github.com/dhalladay/timed-quiz-quatro" target="_blank" rel="noreferrer" className="light link myt-2 mx-2"><BsGithub /></a>
+              <h3 className="my-2">Weather API Dashboard</h3>
+              <a href="https://github.com/dhalladay/travel-weather-dashboard" target="_blank" rel="noreferrer" className="light link myt-2 mx-2"><BsGithub /></a>
 
               </div>
-              <a href="https://dhalladay.github.io/timed-quiz-quatro/" target="_blank" rel="noreferrer" className="project-link">
-                <img src={require(`../../assets/images/Coding-Quiz.PNG`)} alt="screenshot and link to a coding-related quiz" className="project-img rounded mx-auto" />
+              <a href="https://dhalladay.github.io/travel-weather-dashboard/" target="_blank" rel="noreferrer" className="project-link">
+                <img src={require(`../../assets/images/weather-dashboard-screenshot.png`)} alt="screenshot and link a weather dashboard" className="project-img rounded mx-auto" />
               </a>
             </div>
           </div>
