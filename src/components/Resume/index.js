@@ -8,24 +8,24 @@ function Resume() {
   ]
 
   return (
-    <div className="light">
-      <h3 className="center-text">Proficiencies</h3>
+    <div className="light container-fluid">
+      <h3 className="center-text">languages:</h3>
       <div className="flex-row">
         <div>
-          <h4>Front-end: </h4>
+          <h4>front-end: </h4>
           <ul>
             {frontEnd.map(front => (
-              <li className="mx-2" key={front}>
+              <li className="mx-2 no-bull" key={front}>
                 {front}
               </li>
             ))}
           </ul>
         </div>
         <div>
-          <h4>Back-end: </h4>
+          <h4>back-end: </h4>
           <ul>
             {backEnd.map(back => (
-              <li className="mx-2" key={back}>
+              <li className="mx-2 no-bull" key={back}>
                 {back}
               </li>
             ))}

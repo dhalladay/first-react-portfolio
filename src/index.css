@@ -1,7 +1,13 @@
+main {
+  margin: 0;
+  width: 100%;
+  background-color: var(--prim);
+}
+
 :root {
-  --prim: #1D3746;
-  --second: #E9f3f5;
-  --tert: #122222;
+  --prim: #001219;
+  --second: #bb3e03;
+  --tert: #001219;
   --accent-light: #A3791A;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -18,19 +24,14 @@ body {
   background-color: var(--prim);
 }
 
-main {
-  margin: 0;
-  width: 100%;
-}
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: var(--prim);
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: .1em;
+  color: var(--accent-light);
+  font-family: 'Dosis', sans-serif;
 }
 
 code {
@@ -60,13 +61,11 @@ code {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
 
 .github-flex {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .img-thumbnail {
@@ -81,6 +80,10 @@ code {
 .center-text {
   display: flex;
   justify-content: space-evenly;
+}
+
+.no-bull {
+  list-style-type: none;
 }
 
 .my-2 {
@@ -220,16 +223,6 @@ header nav ul a {
 header nav ul a:hover {
   color:var(--second);
 }
-/* end header styling */
-
-/* begin main content styling */
-main {
-  flex-direction: column;
-  width: 80%;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
 
 /* hero styling begins */
 .hero {
@@ -347,7 +340,6 @@ section {
   align-content: space-between;
   padding: 4px;
   border-radius: 5px;
-  max-width: 90%;
   position: relative;
 }
 
@@ -424,9 +416,11 @@ footer {
   color:var(--accent-light);
   background-color: var(--tert);
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 10px;
-  position: bottom;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  clear: both;
 }
 
 

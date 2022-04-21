@@ -27,7 +27,7 @@ function Header() {
   return (
     <>
       <header>
-        <h1>David Halladay</h1>
+        <h1>david halladay</h1>
         <Navigation
           currentPage={currentPage}
           setCurrentPage={setCurrentPage}
