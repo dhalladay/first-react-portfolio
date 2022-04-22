@@ -7,7 +7,7 @@ function About() {
       </div>
       <div className="about-text col-5">
       <h2 className="light">about me:</h2>
-      <p className="light">My name is David Halladay. I've worked in Systems Support for the last few years, during that time I have had the chance to learn SQL query methods and to test, bug-check and problem solve various primary and third party software packages. I recently cided to use that experince to take the next step and become a full stack developer.</p>
+      <p className="light">My name is David Halladay. I've worked in Systems Support for the last few years. As an analyst I would assist our dev team and front end users bug-check and problem solve various primary and third party software packages. I recently completed a full stack web dev bootcamp with the University of Utah and hope to combine that and my personal work experience and become a full stack developer.</p>
       </div>
       </div>
     </section>

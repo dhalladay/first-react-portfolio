@@ -39,7 +39,7 @@ function ContactForm() {
     <section className="container-fluid">
       <div className="row">
       <h1 className="light">contact me:</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form id="contact-form col-6" onSubmit={handleSubmit}>
         <div className="my-2">
           <label htmlFor="name">name: </label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
