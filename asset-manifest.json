@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/first-react-portfolio/static/css/main.40dd88bd.css",
-    "main.js": "/first-react-portfolio/static/js/main.dabeb129.js",
+    "main.css": "/first-react-portfolio/static/css/main.ddfaf14d.css",
+    "main.js": "/first-react-portfolio/static/js/main.cd450183.js",
     "static/js/787.795788f4.chunk.js": "/first-react-portfolio/static/js/787.795788f4.chunk.js",
-    "static/media/Chrip.png": "/first-react-portfolio/static/media/Chrip.70fc9e957510489ce6d1.png",
-    "static/media/Troubleshot.png": "/first-react-portfolio/static/media/Troubleshot.6580bbfc2dddef27ff70.png",
-    "static/media/Work-Day-Scheduler.png": "/first-react-portfolio/static/media/Work-Day-Scheduler.6450a67636dfa8f106ad.png",
+    "static/media/Chrip.png": "/first-react-portfolio/static/media/Chrip.f710a67fd25565d9ff2a.png",
+    "static/media/weather-dashboard-screenshot.png": "/first-react-portfolio/static/media/weather-dashboard-screenshot.7542e0e8ee6150d236eb.png",
+    "static/media/Troubleshot.png": "/first-react-portfolio/static/media/Troubleshot.76a5eec4c84d69e40ba1.png",
+    "static/media/WorthIt.png": "/first-react-portfolio/static/media/WorthIt.ac83b717a12454eb4056.png",
+    "static/media/Work-Day-Scheduler.png": "/first-react-portfolio/static/media/Work-Day-Scheduler.e8f916b4c9507d907a20.png",
     "static/media/profile-pic.jpg": "/first-react-portfolio/static/media/profile-pic.82a353f28b20692c04ea.jpg",
-    "static/media/The-Tech-Blog.png": "/first-react-portfolio/static/media/The-Tech-Blog.d0a86a5467893b8ffde3.png",
+    "static/media/The-Tech-Blog.png": "/first-react-portfolio/static/media/The-Tech-Blog.a9cdb5cb9eb1bef478ec.png",
     "static/media/Resume-Portfolio.pdf": "/first-react-portfolio/static/media/Resume-Portfolio.eb3343c9633dc3bb86fa.pdf",
-    "static/media/WorthIt.png": "/first-react-portfolio/static/media/WorthIt.bccaf55d4878029b77d3.png",
-    "static/media/Coding-Quiz.PNG": "/first-react-portfolio/static/media/Coding-Quiz.ae87f917cbdff1f5b06a.PNG",
     "index.html": "/first-react-portfolio/index.html",
-    "main.40dd88bd.css.map": "/first-react-portfolio/static/css/main.40dd88bd.css.map",
-    "main.dabeb129.js.map": "/first-react-portfolio/static/js/main.dabeb129.js.map",
+    "main.ddfaf14d.css.map": "/first-react-portfolio/static/css/main.ddfaf14d.css.map",
+    "main.cd450183.js.map": "/first-react-portfolio/static/js/main.cd450183.js.map",
     "787.795788f4.chunk.js.map": "/first-react-portfolio/static/js/787.795788f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40dd88bd.css",
-    "static/js/main.dabeb129.js"
+    "static/css/main.ddfaf14d.css",
+    "static/js/main.cd450183.js"
   ]
 }
