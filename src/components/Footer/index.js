@@ -1,4 +1,4 @@
-import { BsGithub, BsLinkedin, BsStackOverflow } from 'react-icons/bs';
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
 
 function Footer() {
 

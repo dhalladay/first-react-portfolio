@@ -26,8 +26,8 @@ function Header() {
 
   return (
     <>
-      <header className='container-fluid'>
-        <h1>david halladay</h1>
+      <header className='container-fluid text-center'>
+        <h1 className='mx-auto'>david halladay</h1>
         <Navigation
           currentPage={currentPage}
           setCurrentPage={setCurrentPage}

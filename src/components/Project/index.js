@@ -9,7 +9,7 @@ function Projects() {
           </h2>
         <div className="row flex flex-wrap">
         <div className="col-12">
-          <div className="flex-row">
+          <div className="row flex-row pb-5">
             <div className="prj-card">
               <div className='github-flex align-items-center justify-content-center'>
                 <h3 className='my-2'>Troubleshot</h3>

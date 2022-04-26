@@ -5,7 +5,7 @@ function Navigation(props) {
   const selection = ['about', 'portfolio', 'contact', 'resume']
 
   return (
-    <nav className="container-fluid">
+    <nav className="container-fluid col-lg-6">
       <ul className="flex-row">
         {selection.map(selection => (
           <li className={`mx-1 ${

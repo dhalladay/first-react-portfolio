@@ -142,7 +142,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: var(--tert);
-  padding: 10px;
+  padding-top: 10px;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -309,7 +309,6 @@ section {
 .prj-card {
   width: 25%;
   text-align: center;
-  margin: 15px;
 }
 
 .badge-img {
@@ -326,7 +325,7 @@ section {
 }
 
 img {
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 
@@ -366,4 +365,11 @@ footer {
   width: 100%;
   height: 2.5rem;
   clear: both;
+}
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+header nav ul a {
+  font-size: 2.5vw;
+}
 }

@@ -16,8 +16,8 @@ function Resume() {
                 <img src={require(`../../assets/images/coding-bootcamp-full-stack-developer-certificate.png`)} alt="University of Utah Coding Bootcamp certificate badge" className="project-img rounded" />
               </a>
       </div>
-      <div className="flex-row">
-        <div>
+      <div className="row d-flex flex-row flex-wrap">
+        <div className="col-6">
           <h4>front-end: </h4>
           <ul>
             {frontEnd.map(front => (
@@ -27,7 +27,7 @@ function Resume() {
             ))}
           </ul>
         </div>
-        <div>
+        <div className="col-6">
           <h4>back-end: </h4>
           <ul>
             {backEnd.map(back => (
