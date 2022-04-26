@@ -38,8 +38,9 @@ function ContactForm() {
   return (
     <section className="container-fluid">
       <div className="row">
+        <div className="col-lg-6 mx-auto">
       <h1 className="light">contact me:</h1>
-      <form id="contact-form col-6" onSubmit={handleSubmit}>
+      <form id="contact-form" onSubmit={handleSubmit}>
         <div className="my-2">
           <label htmlFor="name">name: </label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -61,6 +62,7 @@ function ContactForm() {
         )}
         <button type="submit">Submit</button>
       </form>
+        </div>
       </div>
     </section>
   );

@@ -26,7 +26,7 @@ function Header() {
 
   return (
     <>
-      <header>
+      <header className='container-fluid'>
         <h1>david halladay</h1>
         <Navigation
           currentPage={currentPage}

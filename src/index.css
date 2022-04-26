@@ -51,16 +51,8 @@ code {
   width: 100%;
 }
 
-.profile-picture {
-  border-radius: 50px;
-  box-shadow:  20px 20px 60px #192f3c,
-             -20px -20px 60px #213f51;
-}
-
 .flex-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  padding: 0;
 }
 
 .github-flex {
@@ -101,7 +93,6 @@ code {
 }
 
 form {
-  width: 50%;
   color: var(--accent-light);
 }
 
@@ -321,6 +312,12 @@ section {
   margin: 15px;
 }
 
+.badge-img {
+  width: 10%;
+  text-align: center;
+  margin: 15px;
+}
+
 .card:hover {
   filter: brightness(110%) saturate(120%);
   transform: scale(1.1);
@@ -330,6 +327,12 @@ section {
 
 img {
   width: 100%;
+  height: auto;
+}
+
+.img-self {
+  width: auto;
+  max-height: 70vh;
   height: auto;
 }
 
