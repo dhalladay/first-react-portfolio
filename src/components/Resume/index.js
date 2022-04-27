@@ -18,8 +18,8 @@ function Resume() {
       </div>
       <div className="row d-flex flex-row flex-wrap">
         <div className="col-6">
-          <h4>front-end: </h4>
-          <ul>
+          <h4 className="text-end">front-end: </h4>
+          <ul className="text-end">
             {frontEnd.map(front => (
               <li className="mx-2 no-bull" key={front}>
                 {front}
@@ -29,9 +29,9 @@ function Resume() {
         </div>
         <div className="col-6">
           <h4>back-end: </h4>
-          <ul>
+          <ul className="p-0">
             {backEnd.map(back => (
-              <li className="mx-2 no-bull" key={back}>
+              <li className="no-bull" key={back}>
                 {back}
               </li>
             ))}

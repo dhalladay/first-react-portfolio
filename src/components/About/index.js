@@ -2,7 +2,7 @@ function About() {
   return (
     <section className="container-fluid">
       <div className="row flex-row flex-wrap">
-        <div className="col-sm-12 col-lg-6 justify-content-center pb-5">
+        <div className="col-sm-12 col-lg-6 text-center pb-5">
           <img className="rounded my-2" src={require(`../../assets/images/profile-pic.jpg`)} alt="Dave laughing"></img>
         </div>
         <div className="about-text col-lg-6">
