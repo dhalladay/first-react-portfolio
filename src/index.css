@@ -294,10 +294,10 @@ section {
   border-radius: 1px;
 }
 
-.project-img {
+/* .project-img {
   height: 33%;
   object-fit: cover;
-}
+} */
 
 .first-row{
   flex: 2 0 100%
