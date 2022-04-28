@@ -1,4 +1,4 @@
-import React, {useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import { validateEmail } from '../../utils/helpers';
 import emailjs from '@emailjs/browser'
 
@@ -39,6 +39,7 @@ function ContactForm() {
     emailjs.sendForm('service_8lg2lg6', 'contact_form', form.current, 'KDEQacv3isXKEjEyA')
       .then((result) => {
         console.log(result.text);
+        
       }, (error) => {
         console.log(error.text);
       });
