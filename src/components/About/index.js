@@ -7,7 +7,7 @@ function About() {
         </div>
         <div className="about-text col-lg-6">
           <h2 className="light">about me:</h2>
-          <p className="light ">My name is David Halladay. I've worked in Systems Support for the last few years. As an analyst I would assist our dev team and front end users bug-check and problem solve various primary and third party software packages. I recently completed a full stack web dev bootcamp with the University of Utah and hope to combine that and my personal work experience and become a full stack developer.</p>
+          <p className="light ">My name is David Halladay. For the past 7+ years I worked as a Systems Support Business Analyst running and maintaining post-implementation proprietary and third party software. As an analyst I would run and review logs for scheduled tasks, troubleshoot bugs, test for accessibility, and assist both the dev team and front end users to resolve issues and problem solve to improve efficiency and the user experience. I recently completed a full stack web development bootcamp with the University of Utah combine that and my personal work experience and become a full stack developer. Check out my work and reach out with any questions. And of course, feel free to hire me!</p>
         </div>
       </div>
     </section>
